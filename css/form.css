@@ -1,0 +1,175 @@
+@media screen and (max-width: 468px){
+    #mintFormTop  {
+      width: 100%;
+      gap: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mint-form-v2 {
+        border: 0px solid #141f8521;
+    }
+    
+  }
+
+  body {
+    font-family: 'Dunkin Lyons', sans-serif !important;
+                                                
+  }
+
+#mintFormTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+#mintFormTop button {
+    background: none;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#mintFormTop input {
+    background: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+#mintFormBtnM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8c4c9;
+    height: 70px;
+    width: 70px;
+    border-radius: 80px;
+    min-width: 70px;
+}
+
+#mintFormIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    color: #141f85;
+    font-weight: 700;
+    font-size: 25px;
+    height: 70px;
+    border-radius: 80px;
+}
+
+#mintFormBtnP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141f85;
+    height: 70px;
+    width: 70px;
+    min-width: 70px;
+    border-radius: 80px;
+}
+
+#mintFormBtnM:hover {
+    background-color: #e9b0b5;
+}
+
+#mintFormBtnP:hover {
+    background-color: #12195f;
+}
+
+.totalVolume {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #141f8523;
+    border-bottom: 1px solid #141f8521;
+    color: #141f85;
+    text-align: left;
+    padding-left: 10px;;
+}
+
+.tracking-wider {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;;
+}
+
+.mint-form-v2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: fit-content;
+    text-align: left !important;
+    border: 1px solid #141f8521;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.mintTitle {
+    color: #141f85;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Budokan Rounded', sans-serif !important;
+}
+
+.mintTitleAccent {
+    font-weight: 900;
+}
+
+#totalETH {
+    font-weight: 700;
+}
+
+.formBtnMint {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 80px;
+    border: solid 1px #141f85;
+    text-transform: uppercase;
+    color: #141f85;
+}
+.formBtnMint:hover {
+    background-color: #12195f;
+    color: white;
+    
+
+}
+
+.actBtn {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Budokan Rounded', sans-serif !important;  
+    margin-bottom: 20px;                                             
+}
+
+.actBtn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+}
